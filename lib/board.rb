@@ -1,5 +1,3 @@
 class Board
-  def cells 
-    @cells = []
-  end
+  attr_accessor :cells
 end
